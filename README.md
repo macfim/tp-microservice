@@ -20,9 +20,24 @@ npm install
 
 ## Usage
 
-```bash
-npm start
-```
+To run the microservices system:
+
+1. Start the Movie Microservice:
+
+   ```bash
+   node movieMicroservice.js
+   ```
+
+2. Start the TV Show Microservice:
+
+   ```bash
+   node tvShowMicroservice.js
+   ```
+
+3. Start the API Gateway:
+   ```bash
+   node apiGateway.js
+   ```
 
 ## Contributing
 
